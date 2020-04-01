@@ -17,8 +17,8 @@
 
 package com.dragondevl.base64.digest;
 
-import org.apache.commons.tcodec.binary.Hex;
-import org.apache.commons.tcodec.binary.StringUtils;
+import com.dragondevl.base64.binary.Hex;
+import com.dragondevl.base64.binary.StringUtils;
 
 import java.io.BufferedInputStream;
 import java.io.File;

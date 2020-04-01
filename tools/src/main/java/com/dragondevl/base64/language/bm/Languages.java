@@ -17,7 +17,7 @@
 
 package com.dragondevl.base64.language.bm;
 
-import org.apache.commons.tcodec.Resources;
+import com.dragondevl.base64.Resources;
 
 import java.util.Collections;
 import java.util.EnumMap;

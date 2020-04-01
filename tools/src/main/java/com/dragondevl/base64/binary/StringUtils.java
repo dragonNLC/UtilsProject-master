@@ -17,8 +17,8 @@
 
 package com.dragondevl.base64.binary;
 
-import org.apache.commons.tcodec.CharEncoding;
-import org.apache.commons.tcodec.Charsets;
+import com.dragondevl.base64.CharEncoding;
+import com.dragondevl.base64.Charsets;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;

@@ -17,9 +17,9 @@
 
 package com.dragondevl.base64.net;
 
-import org.apache.commons.tcodec.DecoderException;
-import org.apache.commons.tcodec.EncoderException;
-import org.apache.commons.tcodec.binary.StringUtils;
+import com.dragondevl.base64.DecoderException;
+import com.dragondevl.base64.EncoderException;
+import com.dragondevl.base64.binary.StringUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;

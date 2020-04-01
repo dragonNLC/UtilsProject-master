@@ -16,7 +16,7 @@
  */
 package com.dragondevl.base64.digest;
 
-import org.apache.commons.tcodec.Charsets;
+import com.dragondevl.base64.Charsets;
 
 import java.security.MessageDigest;
 import java.security.SecureRandom;

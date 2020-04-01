@@ -17,12 +17,12 @@
 
 package com.dragondevl.base64.binary;
 
-import org.apache.commons.tcodec.BinaryDecoder;
-import org.apache.commons.tcodec.BinaryEncoder;
-import org.apache.commons.tcodec.CharEncoding;
-import org.apache.commons.tcodec.Charsets;
-import org.apache.commons.tcodec.DecoderException;
-import org.apache.commons.tcodec.EncoderException;
+import com.dragondevl.base64.BinaryDecoder;
+import com.dragondevl.base64.BinaryEncoder;
+import com.dragondevl.base64.CharEncoding;
+import com.dragondevl.base64.Charsets;
+import com.dragondevl.base64.DecoderException;
+import com.dragondevl.base64.EncoderException;
 
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;

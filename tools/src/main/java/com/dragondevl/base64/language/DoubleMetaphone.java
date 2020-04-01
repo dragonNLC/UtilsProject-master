@@ -17,9 +17,9 @@
 
 package com.dragondevl.base64.language;
 
-import org.apache.commons.tcodec.EncoderException;
-import org.apache.commons.tcodec.StringEncoder;
-import org.apache.commons.tcodec.binary.StringUtils;
+import com.dragondevl.base64.EncoderException;
+import com.dragondevl.base64.StringEncoder;
+import com.dragondevl.base64.binary.StringUtils;
 
 /**
  * Encodes a string into a double metaphone value. This Implementation is based on the algorithm by <CITE>Lawrence

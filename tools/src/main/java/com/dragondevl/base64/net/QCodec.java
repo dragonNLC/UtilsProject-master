@@ -17,11 +17,11 @@
 
 package com.dragondevl.base64.net;
 
-import org.apache.commons.tcodec.Charsets;
-import org.apache.commons.tcodec.DecoderException;
-import org.apache.commons.tcodec.EncoderException;
-import org.apache.commons.tcodec.StringDecoder;
-import org.apache.commons.tcodec.StringEncoder;
+import com.dragondevl.base64.Charsets;
+import com.dragondevl.base64.DecoderException;
+import com.dragondevl.base64.EncoderException;
+import com.dragondevl.base64.StringDecoder;
+import com.dragondevl.base64.StringEncoder;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;

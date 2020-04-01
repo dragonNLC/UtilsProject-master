@@ -17,7 +17,7 @@
 
 package com.dragondevl.base64.net;
 
-import org.apache.commons.tcodec.DecoderException;
+import com.dragondevl.base64.DecoderException;
 
 /**
  * Utility methods for this package.

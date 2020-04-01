@@ -17,8 +17,9 @@
 
 package com.dragondevl.base64.language;
 
-import org.apache.commons.tcodec.EncoderException;
-import org.apache.commons.tcodec.StringEncoder;
+
+import com.dragondevl.base64.EncoderException;
+import com.dragondevl.base64.StringEncoder;
 
 import java.util.regex.Pattern;
 

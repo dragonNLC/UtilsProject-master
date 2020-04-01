@@ -16,9 +16,9 @@
  */
 package com.dragondevl.base64.cli;
 
-import org.apache.commons.tcodec.binary.Hex;
-import org.apache.commons.tcodec.digest.DigestUtils;
-import org.apache.commons.tcodec.digest.MessageDigestAlgorithms;
+import com.dragondevl.base64.binary.Hex;
+import com.dragondevl.base64.digest.DigestUtils;
+import com.dragondevl.base64.digest.MessageDigestAlgorithms;
 
 import java.io.File;
 import java.io.IOException;

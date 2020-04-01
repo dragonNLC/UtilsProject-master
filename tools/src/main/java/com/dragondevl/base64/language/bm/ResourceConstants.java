@@ -17,7 +17,7 @@
 
 package com.dragondevl.base64.language.bm;
 
-import org.apache.commons.tcodec.CharEncoding;
+import com.dragondevl.base64.CharEncoding;
 
 /**
  * Constants used to process resource files.

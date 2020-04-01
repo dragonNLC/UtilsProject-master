@@ -16,10 +16,10 @@
  */
 package com.dragondevl.base64.language;
 
-import org.apache.commons.tcodec.CharEncoding;
-import org.apache.commons.tcodec.EncoderException;
-import org.apache.commons.tcodec.Resources;
-import org.apache.commons.tcodec.StringEncoder;
+import com.dragondevl.base64.CharEncoding;
+import com.dragondevl.base64.EncoderException;
+import com.dragondevl.base64.Resources;
+import com.dragondevl.base64.StringEncoder;
 
 import java.util.ArrayList;
 import java.util.Arrays;

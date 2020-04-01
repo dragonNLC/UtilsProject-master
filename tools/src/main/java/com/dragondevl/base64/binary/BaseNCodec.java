@@ -17,10 +17,10 @@
 
 package com.dragondevl.base64.binary;
 
-import org.apache.commons.tcodec.BinaryDecoder;
-import org.apache.commons.tcodec.BinaryEncoder;
-import org.apache.commons.tcodec.DecoderException;
-import org.apache.commons.tcodec.EncoderException;
+import com.dragondevl.base64.BinaryDecoder;
+import com.dragondevl.base64.BinaryEncoder;
+import com.dragondevl.base64.DecoderException;
+import com.dragondevl.base64.EncoderException;
 
 import java.util.Arrays;
 

@@ -17,14 +17,14 @@
 
 package com.dragondevl.base64.net;
 
-import org.apache.commons.tcodec.BinaryDecoder;
-import org.apache.commons.tcodec.BinaryEncoder;
-import org.apache.commons.tcodec.CharEncoding;
-import org.apache.commons.tcodec.DecoderException;
-import org.apache.commons.tcodec.EncoderException;
-import org.apache.commons.tcodec.StringDecoder;
-import org.apache.commons.tcodec.StringEncoder;
-import org.apache.commons.tcodec.binary.StringUtils;
+import com.dragondevl.base64.BinaryDecoder;
+import com.dragondevl.base64.BinaryEncoder;
+import com.dragondevl.base64.CharEncoding;
+import com.dragondevl.base64.DecoderException;
+import com.dragondevl.base64.EncoderException;
+import com.dragondevl.base64.StringDecoder;
+import com.dragondevl.base64.StringEncoder;
+import com.dragondevl.base64.binary.StringUtils;
 
 import java.io.ByteArrayOutputStream;
 import java.io.UnsupportedEncodingException;

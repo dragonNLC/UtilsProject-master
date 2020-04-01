@@ -17,12 +17,12 @@
 
 package com.dragondevl.base64.binary;
 
-import org.apache.commons.tcodec.BinaryDecoder;
-import org.apache.commons.tcodec.BinaryEncoder;
-import org.apache.commons.tcodec.Decoder;
-import org.apache.commons.tcodec.DecoderException;
-import org.apache.commons.tcodec.Encoder;
-import org.apache.commons.tcodec.EncoderException;
+import com.dragondevl.base64.BinaryDecoder;
+import com.dragondevl.base64.BinaryEncoder;
+import com.dragondevl.base64.Decoder;
+import com.dragondevl.base64.DecoderException;
+import com.dragondevl.base64.Encoder;
+import com.dragondevl.base64.EncoderException;
 
 /**
  * Converts between byte arrays and strings of "0"s and "1"s.

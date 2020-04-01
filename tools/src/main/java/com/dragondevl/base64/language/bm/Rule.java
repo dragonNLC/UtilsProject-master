@@ -17,8 +17,8 @@
 
 package com.dragondevl.base64.language.bm;
 
-import org.apache.commons.tcodec.Resources;
-import org.apache.commons.tcodec.language.bm.Languages.LanguageSet;
+import com.dragondevl.base64.Resources;
+import com.dragondevl.base64.language.bm.Languages.LanguageSet;
 
 import java.util.ArrayList;
 import java.util.Arrays;
