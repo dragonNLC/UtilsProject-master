@@ -99,4 +99,8 @@ public class StringUtils {
         return str == null || str.length() == 0;
     }
 
+    public static boolean isSpace(String str) {
+        return !isEmpty(str) && str.trim().length() == 0;
+    }
+
 }
