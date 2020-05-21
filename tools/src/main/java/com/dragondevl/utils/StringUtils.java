@@ -1,6 +1,7 @@
 package com.dragondevl.utils;
 
 import android.graphics.Paint;
+import android.text.TextUtils;
 import android.widget.TextView;
 
 public class StringUtils {
@@ -92,6 +93,10 @@ public class StringUtils {
         }
 
         return sbNewText.toString();
+    }
+
+    public static boolean isEmpty(String str) {
+        return str == null || str.length() == 0;
     }
 
 }
