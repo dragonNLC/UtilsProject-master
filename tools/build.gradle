@@ -25,19 +25,8 @@ android {
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     implementation rootProject.ext.dependencies.comSupportV7
-    implementation rootProject.ext.dependencies.comSupportDesign
     testImplementation rootProject.ext.dependencies.junit4
     androidTestImplementation rootProject.ext.dependencies.tRunner
     androidTestImplementation rootProject.ext.dependencies.espressoCore
-    implementation rootProject.ext.dependencies.glide
-    annotationProcessor rootProject.ext.dependencies.glideAnnotationProcessor
 
-    implementation rootProject.ext.dependencies.eventbus
-    implementation "com.squareup.retrofit2:retrofit:2.1.0"
-    implementation "com.squareup.retrofit2:converter-gson:2.1.0"
-    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
-    implementation 'io.reactivex:rxjava:1.2.3'// 推荐同时加载RxJava
-    implementation 'io.reactivex:rxandroid:1.2.1'// RxAndroid
-    implementation 'com.wang.avi:library:2.1.3'
-    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
 }
