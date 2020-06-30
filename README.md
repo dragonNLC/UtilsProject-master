@@ -2,4 +2,4 @@
 一个公共工具库  
 
 ## use  
-implementation 'com.github.dragonNLC:UtilsProject-master:v0.2'
+implementation 'com.github.dragonNLC:UtilsProject-master:v0.2.1'
