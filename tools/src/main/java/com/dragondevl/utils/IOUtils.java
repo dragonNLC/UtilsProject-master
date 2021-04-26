@@ -3,6 +3,7 @@ package com.dragondevl.utils;
 import java.io.Closeable;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.Socket;
 
 /**
  * @ClassName IOUtils
@@ -18,7 +19,15 @@ public class IOUtils {
         if (closeable != null) {
             try {
                 closeable.close();
-            } catch (IOException ignored) {
+            } catch (IOException ignore) {}
+        }
+    }
+
+    public static void closeIO(Socket socket) {
+        if (socket != null) {
+            try {
+                socket.close();
+            } catch (IOException ignore) {
             }
         }
     }

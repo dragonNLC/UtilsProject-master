@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/UtilsProject-master.iml" filepath="$PROJECT_DIR$/.idea/UtilsProject-master.iml" group="UtilsProject-master" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="UtilsProject-master/app" />
-      <module fileurl="file://$PROJECT_DIR$/tools/tools.iml" filepath="$PROJECT_DIR$/tools/tools.iml" group="UtilsProject-master/tools" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UtilsProject-master.iml" filepath="$PROJECT_DIR$/.idea/UtilsProject-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UtilsProject-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UtilsProject-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tools/UtilsProject-master.tools.iml" filepath="$PROJECT_DIR$/.idea/modules/tools/UtilsProject-master.tools.iml" />
     </modules>
   </component>
 </project>
