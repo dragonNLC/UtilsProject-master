@@ -348,7 +348,6 @@ public class FileUtils {
     }
 
 
-
     public static boolean doZip(String inputPath, String outputPath) {
         System.out.println("开始压缩");
         ZipOutputStream zos = null;
@@ -497,6 +496,60 @@ public class FileUtils {
             }
             return true;
         }
+    }
+
+    public static boolean writeFile(String filePath, String content) {
+        if (!StringUtils.isSpace(content)) {
+            if (!new File(filePath).getParentFile().exists()) {
+                new File(filePath).getParentFile().mkdirs();
+            }
+            FileOutputStream fos = null;
+            try {
+                fos = new FileOutputStream(filePath);
+                fos.write(content.getBytes());
+                fos.flush();
+                return true;
+            } catch (IOException ioe) {
+                ioe.printStackTrace();
+            } finally {
+                if (fos != null) {
+                    try {
+                        fos.close();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    public static String readFile(String path) {
+        return readFile(new File(path));
+    }
+
+    public static String readFile(File file) {
+        if (!file.exists()) {
+            return "";
+        }
+        FileInputStream fis = null;
+        try {
+            fis = new FileInputStream(file);
+            int len;
+            byte[] buffer = new byte[256 * 1024];//缓冲区放大避免转换回中文时乱码，考虑换成BufferedReader来读取
+            StringBuilder sb = new StringBuilder();
+            while ((len = fis.read(buffer)) > 0) {
+                sb.append(new String(buffer, 0, len));
+            }
+            return sb.toString().trim();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            IOUtils.closeIO(fis);
+        }
+        return "";
     }
 
 }
