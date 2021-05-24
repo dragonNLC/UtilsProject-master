@@ -45,10 +45,7 @@ public class StringUtils {
         if (name.length > 1) {
             int endTagLength = name[0].length();
             output = tailString.substring(0, endTagLength);
-            try {
-                Integer.valueOf(output);
-            } catch (Exception e) {
-                e.printStackTrace();
+            if (!NumberUtil.isNumeric(output)) {
                 output = tailString;
             }
         } else {
